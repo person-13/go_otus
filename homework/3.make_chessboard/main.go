@@ -33,15 +33,15 @@ func main() {
     fmt.Println(board)
     fmt.Println()
 
-    board := fmt.Println(makeChessboard(5, 12, 'X', '.'))
+    board = makeChessboard(5, 12, 'X', '.')
     fmt.Println(board)
     fmt.Println()
 
-    board := fmt.Println(makeChessboard(15, 15, '■', '□'))
+    board = makeChessboard(15, 15, '■', '□')
     fmt.Println(board)
     fmt.Println()
 
-    board := fmt.Println(makeChessboard(8, 8, '■', '□'))
+    board = makeChessboard(8, 8, '■', '□')
     fmt.Println(board)
     fmt.Println()
 }
